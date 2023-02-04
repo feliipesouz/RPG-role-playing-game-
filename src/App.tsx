@@ -5,10 +5,10 @@ const App = () => {
   return (
     <Container>
       <Map>
-        <Character />
+        <Character x={5} y={0} />
       </Map>
     </Container>
-  )
-}
+  );
+};
 
 export default App;
