@@ -11,7 +11,6 @@ const App = () => {
   }, []);
 
   const getKey = (e: KeyboardEvent) => {
-    console.log(e.code);
     switch (e.code) {
       case "KeyA":
       case "ArrowLeft":
